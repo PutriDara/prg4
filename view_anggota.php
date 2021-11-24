@@ -3,7 +3,7 @@ include("koneksi.php");
 
 	$query_view=mysqli_query($koneksi, "select * from anggota");
 ?>
-<table class="table-bordered" border="">
+<table class="table-bordered" border="1">
 		<tr>
 			<td>No</td>
 			<td>ID Anggota</td>
